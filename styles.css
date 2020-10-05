@@ -1,0 +1,103 @@
+/* || GENERAL STYLES */
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+:root {
+  /* || COLORS */
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsla(333, 80%, 67%, 0.623);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  margin: 30px;
+}
+
+.description {
+  padding-top: 75px;
+}
+
+.description h1 {
+  font-size: 2rem;
+  color: var(--very-dark-magenta);
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.description p {
+  color: var(--dark-grayish-magenta);
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
+.rating {
+  background-color: var(--light-grayish-magenta);
+  border-radius: 10px;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.rating h4 {
+  color: var(--very-dark-magenta);
+  font-size: 0.9rem;
+  margin-top: 12px;
+}
+
+.rating img {
+  height: 15px;
+  width: auto;
+  margin: 2px;
+}
+
+.reviews {
+  margin-top: 50px;
+}
+
+.review {
+  background-color: var(--very-dark-magenta);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 15px;
+}
+
+.review p {
+  color: var(--white);
+  margin: 20px;
+  line-height: 1.3rem;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.people {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.people img {
+  border-radius: 100%;
+  margin-right: 17px;
+  height: 50px;
+}
+
+.name h3 {
+  color: var(--light-grayish-magenta);
+  margin: 7px;
+  font-size: 0.9rem;
+}
+
+.name h4 {
+  color: var(--soft-pink);
+  font-size: 0.8rem;
+}
